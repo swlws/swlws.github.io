@@ -8,7 +8,6 @@ const router = createRouter({
       path: '/',
       component: () => import('../views/frame/main/index.vue'),
       children: menuRouters(),
-      redirect: '/welcome',
     },
     {
       path: '/child',

@@ -1,6 +1,8 @@
-import { App } from '@vue/runtime-core';
+import { App } from 'vue';
 
-const components: any[] = [];
+import BaseMenu from '~/components/BaseMenu/main';
+
+const components = [BaseMenu];
 
 // 全局注册
 const install = (app: App) => {
