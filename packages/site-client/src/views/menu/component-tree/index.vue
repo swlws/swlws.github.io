@@ -15,16 +15,21 @@ export default defineComponent({
   setup() {
     const list = reactive(data);
 
-    const addEvent = (node: TreeItem) => {
+    const addEvent = (list: TreeItem[], node: TreeItem, type: number) => {
+      // 兄弟节点
+      if (type === 1) {
+        list.push({ name: '', display_name: '', type: 'string' });
+        return;
+      }
+
+      // 子节点
       if (!Array.isArray(node.data)) {
         node.data = [];
       }
-
-      node.data.push({ name: '+', display_name: '+', type: 'string' });
+      node.data.push({ name: '', display_name: '', type: 'string' });
     };
 
     const removeEvent = (list: TreeItem[], index: number) => {
-      console.log(list, index);
       list.splice(index, 1);
     };
 
