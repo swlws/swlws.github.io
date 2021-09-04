@@ -19,4 +19,14 @@ export default [
     label: '生成ID',
     path: '/md/test',
   },
+  {
+    id: '003000000',
+    label: '组件',
+  },
+  {
+    pid: '003000000',
+    id: '003001000',
+    label: 'Tree',
+    path: '/component/tree',
+  },
 ];
