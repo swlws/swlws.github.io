@@ -9,4 +9,14 @@ export default [
     label: '生成ID',
     path: '/tool/id',
   },
+  {
+    id: '002000000',
+    label: 'MD',
+  },
+  {
+    pid: '002000000',
+    id: '002001000',
+    label: '生成ID',
+    path: '/md/test',
+  },
 ];

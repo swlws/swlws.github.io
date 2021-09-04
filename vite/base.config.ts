@@ -5,6 +5,8 @@ import legacy from 'vite-plugin-legacy';
 import styleImport from 'vite-plugin-style-import';
 import viteCompression from 'vite-plugin-compression';
 
+import rollupPluginMarkdown from '@jackfranklin/rollup-plugin-markdown';
+
 /**
  * 基础配置
  *
@@ -47,6 +49,7 @@ export function useCss(): CSSOptions {
 export function usePlugins() {
   return [
     vue(),
+    rollupPluginMarkdown(),
     styleImport({
       libs: [
         {
