@@ -40,7 +40,7 @@ export const typeOptions = [
     value: 'string',
   },
   {
-    label: 'string',
-    value: 'string',
+    label: 'input',
+    value: 'input',
   },
 ];
