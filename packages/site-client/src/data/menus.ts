@@ -11,22 +11,22 @@ export default [
   },
   {
     id: '002000000',
-    label: 'MD',
+    label: 'Doc',
   },
   {
     pid: '002000000',
     id: '002001000',
-    label: '生成ID',
-    path: '/md/test',
+    label: 'List',
+    path: '/doc/list',
   },
-  {
-    id: '003000000',
-    label: '组件',
-  },
-  {
-    pid: '003000000',
-    id: '003001000',
-    label: 'Tree',
-    path: '/component/tree',
-  },
+  // {
+  //   id: '003000000',
+  //   label: '组件',
+  // },
+  // {
+  //   pid: '003000000',
+  //   id: '003001000',
+  //   label: 'Tree',
+  //   path: '/component/tree',
+  // },
 ];
