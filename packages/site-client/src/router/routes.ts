@@ -34,8 +34,12 @@ const _import = (path: string) => () => import(`../views/pages/${path}/index.vue
 export function singlePageRouters() {
   return [
     {
-      path: '/detail',
-      component: _import('detail'),
+      path: '/tab-message-broadcast-channel',
+      component: _import('tab-message-broadcast-channel'),
+    },
+    {
+      path: '/tab-message-service-worker',
+      component: _import('tab-message-service-worker'),
     },
   ];
 }

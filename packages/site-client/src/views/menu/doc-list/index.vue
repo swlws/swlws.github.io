@@ -35,11 +35,9 @@ export default defineComponent({
     watch(
       index,
       async () => {
-        console.log(1);
         let item = navs[index.value];
         item.md().then((data: any) => {
           content.value = data.default.html;
-          console.log(content.value);
         });
       },
       { immediate: true },
