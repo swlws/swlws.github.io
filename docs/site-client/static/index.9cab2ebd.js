@@ -1,0 +1,1 @@
+import{d as a,a as e,b as s,e as t,g as r,p as o,h as n,i as b}from"./vue.07e3fbd3.js";var c=a({});const d=r();o("data-v-b0ba2eb2");const l={class:"home-frame"},i=t("aside",null," 非菜单页面布局 ",-1);n();const u=d(((a,r,o,n,c,d)=>{const u=e("router-view");return b(),s("article",l,[i,t("section",null,[t(u)])])}));c.render=u,c.__scopeId="data-v-b0ba2eb2";export default c;
