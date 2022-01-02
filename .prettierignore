@@ -1,8 +1,0 @@
-# https://www.prettier.cn/docs/ignore.html
-
-# Ignore artifacts:
-public
-dist
-
-# Ignore all HTML files:
-*.html
