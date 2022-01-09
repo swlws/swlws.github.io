@@ -1,0 +1,1 @@
+const e={key:"v-1559ca3e",path:"/tool/",title:"Tool",lang:"zh-CN",frontmatter:{editLink:!1},excerpt:"",headers:[],git:{updatedTime:1641697916e3,contributors:[{name:"swlws",email:"979623074@qq.com",commits:2}]},filePathRelative:"tool/readme.md"};export{e as data};
