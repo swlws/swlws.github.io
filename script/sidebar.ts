@@ -11,5 +11,13 @@ export default {
       children: ["/web/tab-message.md"],
     },
   ],
+  "/secure/": [
+    { text: "概览", link: "/secure/" },
+    "/secure/out-net-scan.md",
+    // {
+    //   text: "外网探测",
+    //   link: "/secure/out-net-scan.md",
+    // },
+  ],
   "/tool/": [{ text: "概览", link: "/tool/" }, "/tool/id.md"],
 };

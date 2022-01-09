@@ -218,7 +218,7 @@ window.addEventListener("storage", function (e) {
 });
 ```
 
-## 2.5 IndexedDB
+### 2.5 IndexedDB
 
 同源下的 Tab 可以访问相同的 IndexedDB，利用数据的全局存储特性，实现通信。
 

@@ -2,10 +2,10 @@
 home: true
 lang: zh-CN
 title: Welcome
-actions:
-  - text: Go Into
-    link: /base/
-    type: primary
+# actions:
+#   - text: Go Into
+#     link: /base/
+#     type: primary
 features:
   - title: Basic
     details: Some Basic Knowledge

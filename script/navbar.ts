@@ -8,6 +8,10 @@ export default [
     link: "/web/",
   },
   {
+    text: "Secure",
+    link: "/secure/",
+  },
+  {
     text: "Tool",
     link: "/tool/",
   },
