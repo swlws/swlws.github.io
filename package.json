@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev md-docs -c vuepress.config.ts",
-    "docs:build": "vuepress build md-docs -c vuepress.config.ts -d docs"
+    "dev": "vuepress dev md-docs -c vuepress.config.ts",
+    "build": "vuepress build md-docs -c vuepress.config.ts -d docs"
   },
   "devDependencies": {
     "@vuepress/plugin-register-components": "^2.0.0-beta.32",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "bson": "^4.6.0",
+    "dayjs": "^1.10.7",
     "uuid": "^8.3.2",
     "vue": "^3.2.26"
   }

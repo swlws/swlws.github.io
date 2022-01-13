@@ -17,7 +17,7 @@ export default defineUserConfig({
     // 设置根据页面标题自动生成的侧边栏的最大深度。
     sidebarDepth: 12,
     docsRepo: true,
-    lastUpdated: true,
-    contributors: true,
+    lastUpdated: false,
+    contributors: false,
   },
 });

@@ -57,7 +57,20 @@ editLink: false
 
 ### 证书透明
 
-一个 SSL/TLS 证书通常包含域名、子域名和邮件地址。
+一个 SSL/TLS 证书通常包含域名、子域名和邮件地址。示例`cn.bing.com`的证书允许的域名：
+
+```js
+{
+  subject: { CN: 'www.bing.com' },
+  issuer: {
+    C: 'US',
+    O: 'Microsoft Corporation',
+    CN: 'Microsoft RSA TLS CA 01'
+  },
+  subjectaltname: 'DNS:www.bing.com, DNS:dict.bing.com.cn, DNS:*.platform.bing.com, DNS:*.bing.com, DNS:bing.com, DNS:ieonline.microsoft.com, DNS:*.windowssearch.com, DNS:cn.ieonline.microsoft.com, DNS:*.origin.bing.com, DNS:*.mm.bing.net, DNS:*.api.bing.com, DNS:ecn.dev.virtualearth.net, DNS:*.cn.bing.net, DNS:*.cn.bing.com, DNS:ssl-api.bing.com, DNS:ssl-api.bing.net, DNS:*.api.bing.net, DNS:*.bingapis.com, DNS:bingsandbox.com, DNS:feedback.microsoft.com, DNS:insertmedia.bing.office.net, DNS:r.bat.bing.com, DNS:*.r.bat.bing.com, DNS:*.dict.bing.com.cn, DNS:*.dict.bing.com, DNS:*.ssl.bing.com, DNS:*.appex.bing.com, DNS:*.platform.cn.bing.com, DNS:wp.m.bing.com, DNS:*.m.bing.com, DNS:global.bing.com, DNS:windowssearch.com, DNS:search.msn.com, DNS:*.bingsandbox.com, DNS:*.api.tiles.ditu.live.com, DNS:*.ditu.live.com, DNS:*.t0.tiles.ditu.live.com, DNS:*.t1.tiles.ditu.live.com, DNS:*.t2.tiles.ditu.live.com, DNS:*.t3.tiles.ditu.live.com, DNS:*.tiles.ditu.live.com, DNS:3d.live.com, DNS:api.search.live.com, DNS:beta.search.live.com, DNS:cnweb.search.live.com, DNS:dev.live.com, DNS:ditu.live.com, DNS:farecast.live.com, DNS:image.live.com, DNS:images.live.com, DNS:local.live.com.au, DNS:localsearch.live.com, DNS:ls4d.search.live.com, DNS:mail.live.com, DNS:mapindia.live.com, DNS:local.live.com, DNS:maps.live.com, DNS:maps.live.com.au, DNS:mindia.live.com, DNS:news.live.com, DNS:origin.cnweb.search.live.com, DNS:preview.local.live.com, DNS:search.live.com, DNS:test.maps.live.com, DNS:video.live.com, DNS:videos.live.com, DNS:virtualearth.live.com, DNS:wap.live.com, DNS:webmaster.live.com, DNS:webmasters.live.com, DNS:www.local.live.com.au, DNS:www.maps.live.com.au',
+}
+```
+
 查找某个域名所属证书的最简单的方法就是使用搜索引擎搜索一些公开的 CT 日志。
 
 在线工具：

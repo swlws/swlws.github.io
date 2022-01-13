@@ -1,4 +1,8 @@
 button {
+  box-sizing: border-box;
+  height: 28px;
+
+  margin: 5px;
   padding: 5px 10px;
 
   border: 1px solid #e8e8e8;
@@ -13,5 +17,21 @@ button {
   &:active {
     color: #fff;
     background-color: #009afe;
+  }
+}
+
+input {
+  box-sizing: border-box;
+  height: 28px;
+  padding: 3px 10px;
+  line-height: 28px;
+
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  background-color: #fff;
+
+  &:focus {
+    outline: none;
+    border-color: #009afe;
   }
 }

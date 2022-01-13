@@ -15,4 +15,8 @@ export default [
     text: "Tool",
     link: "/tool/",
   },
+  {
+    text: "Todo",
+    link: "/todo/",
+  },
 ];
