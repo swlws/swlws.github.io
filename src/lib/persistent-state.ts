@@ -18,7 +18,7 @@ class Storge<T extends object> {
 
   getCache(prop?: string) {
     try {
-      const storage = localStorage.getItem(NAMESPACE) || "{}";
+      const storage = window.localStorage.getItem(NAMESPACE) || "{}";
       const cache = JSON.parse(storage);
       return prop ? cache[prop] || {} : cache;
     } catch (e) {
@@ -32,7 +32,7 @@ class Storge<T extends object> {
     try {
       const cache = this.getCache();
       cache[this.name] = data;
-      localStorage.setItem(NAMESPACE, JSON.stringify(cache));
+      window.localStorage.setItem(NAMESPACE, JSON.stringify(cache));
     } catch (e) {
       console.error(e);
     }
