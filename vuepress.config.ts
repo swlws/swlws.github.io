@@ -6,7 +6,7 @@ import sidebar from "./script/sidebar";
 export default defineUserConfig({
   base: "/",
   title: "CodeLife",
-  description: "Code Life",
+  description: "JUST PLAY",
   lang: "zh-CN",
   plugins,
   theme: "@vuepress/theme-default",

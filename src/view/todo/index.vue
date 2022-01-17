@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { ref } from "vue";
 import { usePersistentState } from "../../lib/persistent-state";
 import { c_date } from "../../lib/time";
 

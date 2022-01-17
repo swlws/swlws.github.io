@@ -4,8 +4,8 @@ export default [
     link: "/",
   },
   {
-    text: "Web",
-    link: "/web/",
+    text: "Front",
+    link: "/front/",
   },
   {
     text: "Secure",
@@ -14,9 +14,5 @@ export default [
   {
     text: "Tool",
     link: "/tool/",
-  },
-  {
-    text: "Todo",
-    link: "/todo/",
   },
 ];

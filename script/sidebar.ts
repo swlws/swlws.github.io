@@ -1,23 +1,21 @@
 // https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html#sidebar
 export default {
-  // 设置/web/路由下的侧边栏
-  "/web/": [
-    // 第一个分组，名为WEB
-    // Web分组下有一个子页面
-    { text: "概览", link: "/web/" },
+  // 设置/front/路由下的侧边栏
+  "/front/": [
+    // 第一个分组，名为front
+    // front分组下有一个子页面
+    { text: "TS", collapsible: true, children: ["/front/ts/code.md"] },
     {
       text: "通信",
       collapsible: true,
-      children: ["/web/tab-message.md"],
+      children: ["/front/tab-message.md"],
+    },
+    {
+      text: "计算机网路",
+      collapsible: true,
+      link: "/front/network/",
+      children: ["/front/network/concept.md"],
     },
   ],
-  "/secure/": [
-    { text: "概览", link: "/secure/" },
-    "/secure/out-net-scan.md",
-    // {
-    //   text: "外网探测",
-    //   link: "/secure/out-net-scan.md",
-    // },
-  ],
-  "/tool/": [{ text: "概览", link: "/tool/" }, "/tool/id.md"],
+  "/secure/": [{ text: "概览", link: "/secure/" }, "/secure/out-net-scan.md"],
 };

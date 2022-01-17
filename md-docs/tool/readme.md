@@ -2,6 +2,9 @@
 editLink: false
 ---
 
-# Tool
+# 工具
 
-- [随机 ID 生成器](/tool/id/)
+简单小工具
+
+- [自动生成随机 UUID-V4](/tool/id.md)
+- [Todo 代办事项](/tool/todo.md)

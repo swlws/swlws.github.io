@@ -2,6 +2,8 @@
 home: true
 lang: zh-CN
 title: Welcome
+description: For money
+# heroImage: ./back.jpeg
 # actions:
 #   - text: Go Into
 #     link: /base/
@@ -9,9 +11,9 @@ title: Welcome
 features:
   - title: Basic
     details: Some Basic Knowledge
-  - title: Vue
-    details: Vue Code
+  - title: Front End & Back End
+    details: Some development skills
   - title: Tool
-    details: Some simple and no serve tool
+    details: Some simple and helpful tools
 footer: "MIT Licensed | Copyright © 2022-present swlws"
 ---
