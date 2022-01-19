@@ -14,7 +14,11 @@ export default {
       text: "计算机网路",
       collapsible: true,
       link: "/front/network/",
-      children: ["/front/network/concept.md", "/front/network/2-link-layer.md"],
+      children: [
+        "/front/network/concept.md",
+        "/front/network/2-link-layer.md",
+        "/front/network/3-network-layer.md",
+      ],
     },
   ],
   "/secure/": [{ text: "概览", link: "/secure/" }, "/secure/out-net-scan.md"],
