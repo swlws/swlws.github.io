@@ -1,5 +1,15 @@
 ---
 editLink: false
+head:
+  - - meta
+    - name: author
+      content: swlws
+  - - meta
+    - name: description
+      content: 计算机网络-概述
+  - - meta
+    - name: keywords
+      content: 网络 互连网 互联网 OSI TCP/IP 五层协议
 ---
 
 # 概述

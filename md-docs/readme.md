@@ -10,10 +10,10 @@ description: For money
 #     type: primary
 features:
   - title: Basic
-    details: Some Basic Knowledge
-  - title: Front End & Back End
-    details: Some development skills
+    details: some basic knowledge
+  - title: Development
+    details: some development skills
   - title: Tool
-    details: Some simple and helpful tools
+    details: some simple and helpful tools
 footer: "MIT Licensed | Copyright © 2022-present swlws"
 ---

@@ -1,5 +1,15 @@
 ---
 editLink: false
+head:
+  - - meta
+    - name: author
+      content: swlws
+  - - meta
+    - name: description
+      content: 从外部视角查看服务器上的资产
+  - - meta
+    - name: keywords
+      content: 扫描器 资产 域名 证书 端口 站点
 ---
 
 # 外网探测
