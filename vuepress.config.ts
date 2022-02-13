@@ -6,7 +6,8 @@ import sidebar from "./script/sidebar";
 export default defineUserConfig({
   base: "/",
   title: "CodeLife",
-  description: "JUST PLAY",
+  description:
+    "read more books, read more newspapers, and think more, not bad!!!",
   head: [["link", { rel: "icon", href: "/imgs/logo.png" }]],
   lang: "zh-CN",
   plugins,
