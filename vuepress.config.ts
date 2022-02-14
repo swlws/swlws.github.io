@@ -5,7 +5,7 @@ import sidebar from "./script/sidebar";
 
 export default defineUserConfig({
   base: "/",
-  title: "CodeLife",
+  title: "Code思维",
   description:
     "read more books, read more newspapers, and think more, not bad!!!",
   head: [["link", { rel: "icon", href: "/imgs/logo.png" }]],

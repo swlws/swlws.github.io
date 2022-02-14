@@ -17,3 +17,10 @@ features:
     details: some simple and helpful tools
 footer: "MIT Licensed | Copyright © 2022-present swlws"
 ---
+
+<p style="text-align:center;">
+
+<img src="/imgs/wechat_article.jpg"/><br/>
+<span>微信公众号</span>
+
+</p>

@@ -1,5 +1,15 @@
 ---
 editLink: false
+head:
+  - - meta
+    - name: author
+      content: swlws
+  - - meta
+    - name: description
+      content: 计算机网络-运输层
+  - - meta
+    - name: keywords
+      content: 运输层 TCP UDP 进程通信 可靠传输 停止等待协议 超时重传 滑动窗口 拥塞控制 三次握手 四次挥手
 ---
 
 # 运输层
