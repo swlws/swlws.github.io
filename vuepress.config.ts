@@ -6,8 +6,7 @@ import sidebar from "./script/sidebar";
 export default defineUserConfig({
   base: "/",
   title: "Code思维",
-  description:
-    "read more books, read more newspapers, and think more, not bad!!!",
+  description: "多读书 多看报 多思考",
   head: [["link", { rel: "icon", href: "/imgs/logo.png" }]],
   lang: "zh-CN",
   plugins,

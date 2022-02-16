@@ -1,18 +1,18 @@
 export default [
+  // {
+  //   text: "主页",
+  //   link: "/",
+  // },
   {
-    text: "Home",
-    link: "/",
-  },
-  {
-    text: "Front",
+    text: "前端",
     link: "/front/",
   },
   {
-    text: "Secure",
+    text: "安全",
     link: "/secure/",
   },
   {
-    text: "Tool",
+    text: "工具",
     link: "/tool/",
   },
 ];

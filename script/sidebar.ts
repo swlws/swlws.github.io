@@ -18,6 +18,7 @@ export default {
         "/front/network/concept.md",
         "/front/network/2-link-layer.md",
         "/front/network/3-network-layer.md",
+        "/front/network/4-transport-layer.md",
       ],
     },
   ],
