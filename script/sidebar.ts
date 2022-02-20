@@ -19,6 +19,7 @@ export default {
         "/front/network/2-link-layer.md",
         "/front/network/3-network-layer.md",
         "/front/network/4-transport-layer.md",
+        "/front/network/5-application-layer.md",
       ],
     },
   ],
