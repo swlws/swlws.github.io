@@ -20,7 +20,13 @@ export default {
         "/front/network/3-network-layer.md",
         "/front/network/4-transport-layer.md",
         "/front/network/5-application-layer.md",
+        // "/front/network/6-secure.md",
       ],
+    },
+    {
+      text: "项目管理",
+      collapsible: true,
+      children: ["/front/project/demand.md"],
     },
   ],
   "/secure/": [{ text: "概览", link: "/secure/" }, "/secure/out-net-scan.md"],
