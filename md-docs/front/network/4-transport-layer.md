@@ -12,7 +12,15 @@ head:
       content: 运输层 TCP UDP 进程通信 可靠传输 停止等待协议 超时重传 滑动窗口 拥塞控制 三次握手 四次挥手
 ---
 
+---
+
+---
+
 [首先发布在微信公众号](https://mp.weixin.qq.com/s?__biz=Mzg2OTc0MzIxOA==&mid=2247483674&idx=1&sn=5a3965005250c9a5ea8c6119c0b1e049&chksm=ce992e07f9eea7116f25c25f92479af23a0af13d793229c74ce10e8eb3d6c74f09359cf9b514&token=923323399&lang=zh_CN#rd)
+
+<img src="https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=Mzg2OTc0MzIxOA==&mid=2247483694&idx=1&sn=c2043de91c2f228153516fb715205599&send_time="/><br/>
+
+---
 
 ---
 
@@ -292,12 +300,3 @@ Answer：防止已失效的连接请求报文段（在网络中滞留时间过�
 #### TCP 的有限状态机
 
 TCP 的状态共涉及到 11 个状态的互相转换 ​。​
-
----
-
-<div style="text-align:center;">
-
-<img src="/imgs/wechat_article.jpg"/><br/>
-<span>微信公众号</span>
-
-</div>

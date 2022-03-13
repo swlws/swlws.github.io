@@ -12,7 +12,15 @@ head:
       content: network secure kdc ca des aes rsa sha 数字签名 mac ssl tls 防火墙 入侵检测
 ---
 
+---
+
+---
+
 [首先发布在微信公众号](https://mp.weixin.qq.com/s?__biz=Mzg2OTc0MzIxOA==&mid=2247483694&idx=1&sn=c2043de91c2f228153516fb715205599&chksm=ce992e33f9eea7257720981fd33f79dd2a2cd6227f0bc82ce80e939811732798c7daf9930f49&token=920490871&lang=zh_CN#rd)
+
+<img src="https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=Mzg2OTc0MzIxOA==&mid=2247483694&idx=1&sn=c2043de91c2f228153516fb715205599&send_time="/><br/>
+
+---
 
 ---
 
@@ -283,10 +291,3 @@ SSL 提供的安全服务可归纳为三种：
 `基于异常的入侵检测`，原理：观察正常运行的网络流量，学习正常流量的统计特征和规律，当检测到网络流量不符合正常情况时，则认为发生入侵
 
 入侵检测系统中的`漏报、误报`，如果`漏报率`比较高，则仅能检测到少量的入侵，给人以安全的假象；`误报率太大`会导致大量的虚假报警。
-
-<div style="text-align:center;">
-
-<img src="https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=Mzg2OTc0MzIxOA==&mid=2247483694&idx=1&sn=c2043de91c2f228153516fb715205599&send_time="/><br/>
-<span>微信公众号</span>
-
-</div>

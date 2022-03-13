@@ -12,7 +12,15 @@ head:
       content: dns ftp nfs telnet www email smtp pop3 imap dhcp system call p2p
 ---
 
+---
+
+---
+
 [首先发布在微信公众号](https://mp.weixin.qq.com/s?__biz=Mzg2OTc0MzIxOA==&mid=2247483678&idx=1&sn=a0725d3e5d8a5ca4e968a1a6d05ca87f&chksm=ce992e03f9eea7150e2f8eccf2dd449be68b67ad7532795d91aafeeadc07f50b86e02425892b&token=2017381279&lang=zh_CN#rd)
+
+<img src="https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=Mzg2OTc0MzIxOA==&mid=2247483694&idx=1&sn=c2043de91c2f228153516fb715205599&send_time="/><br/>
+
+---
 
 ---
 
@@ -412,12 +420,3 @@ DHCP 获取的 IP 地址，是`有时效期`的，这段时间称为`租用期�
 ## SSH
 
 安全登录，采用客户服务器的工作方式。
-
----
-
-<div style="text-align:center;">
-
-<img src="/imgs/wechat_article.jpg"/><br/>
-<span>微信公众号</span>
-
-</div>

@@ -12,7 +12,15 @@ head:
       content: 项目管理 需求 计划 沟通 变化 PDCA
 ---
 
+---
+
+---
+
 [首先发布在微信公众号](https://mp.weixin.qq.com/s?__biz=Mzg2OTc0MzIxOA==&mid=2247483685&idx=1&sn=9d6a1b8c33722c1f9c01f0eca47ff036&chksm=ce992e38f9eea72e612e4236b1f6138d3a13a7458d4f88040fbac3e3a4941d99eaef575cb915&token=3063493&lang=zh_CN#rd)
+
+<img src="https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=Mzg2OTc0MzIxOA==&mid=2247483694&idx=1&sn=c2043de91c2f228153516fb715205599&send_time="/><br/>
+
+---
 
 ---
 

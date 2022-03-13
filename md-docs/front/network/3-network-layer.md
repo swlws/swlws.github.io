@@ -12,7 +12,15 @@ head:
       content: 网络层 IP层 ARP ICMP 网段 子网 网段划分 子网划分 IP数据报 路由 IPv6 NAT
 ---
 
+---
+
+---
+
 [首先发布在微信公众号](https://mp.weixin.qq.com/s?__biz=Mzg2OTc0MzIxOA==&mid=2247483668&idx=1&sn=0d26071c34efc912c8ffd27351be5ea3&chksm=ce992e09f9eea71fc4d83f10fd3f5bae2ac8085d1d3d02e411b95a0e598f25d8ef3b76990f31&token=923323399&lang=zh_CN#rd)
+
+<img src="https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=Mzg2OTc0MzIxOA==&mid=2247483694&idx=1&sn=c2043de91c2f228153516fb715205599&send_time="/><br/>
+
+---
 
 ---
 
@@ -374,12 +382,3 @@ NAPT（Network Address And Port Translation）,使用 IP、端口的转换表示
 | 入   | 目的 IP 地址:TCP 目的端口 | 172.38.1.5:40002     | 172.38.0.4:3000      |
 
 备注：路由器是工作在网络层的设备，NAPT 路由器，还要查看运输层的端口。
-
----
-
-<div style="text-align:center;">
-
-<img src="/imgs/wechat_article.jpg"/><br/>
-<span>微信公众号</span>
-
-</div>
