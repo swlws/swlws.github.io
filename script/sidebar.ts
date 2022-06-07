@@ -11,6 +11,11 @@ export default {
       children: ["/front/tab-message.md"],
     },
     {
+      text: "Vue 3",
+      collapsible: true,
+      children: ["/front/vue3/00-concept.md"],
+    },
+    {
       text: "计算机网路",
       collapsible: true,
       link: "/front/network/",

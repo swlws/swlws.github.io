@@ -1,1 +1,0 @@
-import{o as t,c as r,a as e}from"./app.c00dd08c.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";var c="/imgs/wechat_article.jpg";const o={},_={style:{"text-align":"center"}},a=e("p",null,[e("img",{src:c}),e("br"),e("span",null,"\u5FAE\u4FE1\u516C\u4F17\u53F7")],-1),n=[a];function i(l,m){return t(),r("div",_,n)}var f=s(o,[["render",i]]);export{f as default};
