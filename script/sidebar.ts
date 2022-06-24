@@ -11,6 +11,11 @@ export default {
       children: ["/front/tab-message.md"],
     },
     {
+      text: "HTML 5",
+      collapsible: true,
+      children: ["/front/html5/reliable-request.md"],
+    },
+    {
       text: "Vue 3",
       collapsible: true,
       children: ["/front/vue3/00-concept.md"],
