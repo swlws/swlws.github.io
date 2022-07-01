@@ -73,7 +73,7 @@ async function nextPage() {
 
 ### 2.2 keepAlive
 
-`fetch`中设置`keepalive`为`true`时，即使发起请求的页面处于`terminated`状态，也会保持连接。利用这哥特性，可以发送可靠的请求。
+`fetch`中设置`keepalive`为`true`时，即使发起请求的页面处于`terminated`状态，也会保持连接。利用这个特性，可以发送可靠的请求。
 
 ```js
 function nextPage() {

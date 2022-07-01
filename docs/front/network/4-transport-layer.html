@@ -23,7 +23,7 @@
 			}
     </script>
     <meta name="author" content="swlws"><meta name="description" content="计算机网络-运输层"><meta name="keywords" content="运输层 TCP UDP 进程通信 可靠传输 停止等待协议 超时重传 滑动窗口 拥塞控制 三次握手 四次挥手"><link rel="icon" href="/imgs/logo.png"><title>运输层 | Code思维</title>
-    <link rel="modulepreload" href="/assets/app.0ffc9b8d.js"><link rel="modulepreload" href="/assets/4-transport-layer.html.1d9571bf.js"><link rel="modulepreload" href="/assets/4-transport-layer.html.d55b0191.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/assets/app.28a1ca3c.js"><link rel="modulepreload" href="/assets/4-transport-layer.html.1d9571bf.js"><link rel="modulepreload" href="/assets/4-transport-layer.html.8dfd5239.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js">
     <link rel="stylesheet" href="/assets/style.173d2c01.css">
   </head>
   <body>
@@ -33,6 +33,6 @@ Answer：可以，将 B-&gt;A 的报文，拆分为两个。一个确认报文�
 Question: 为什么最后还要发送一次确认？
 Answer：防止已失效的连接请求报文段（在网络中滞留时间过长而被A认为失效的连接，B不认为是失效的）突然传送到B，因而产生错误。
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h4 id="tcp-的连接释放" tabindex="-1"><a class="header-anchor" href="#tcp-的连接释放" aria-hidden="true">#</a> TCP 的连接释放</h4><p>四次挥手流程：</p><ul><li>A -&gt; B. FIN=1,seq=u</li><li>B -&gt; A. ACK=1,ack=u+1,seq=v</li><li>B -&gt; A. FIN=1,seq=w,ACK=1,ack=u+1</li><li>A -&gt; B. ACK=1,ack=w+1,seq=u+1</li></ul><h4 id="tcp-的有限状态机" tabindex="-1"><a class="header-anchor" href="#tcp-的有限状态机" aria-hidden="true">#</a> TCP 的有限状态机</h4><p>TCP 的状态共涉及到 11 个状态的互相转换 ​。​</p><!--]--></div><footer class="page-meta"><!----><!----><!----></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/front/network/3-network-layer.html" class="" aria-label="网络层"><!--[--><!--]--> 网络层 <!--[--><!--]--></a></span><span class="next"><a href="/front/network/5-application-layer.html" class="" aria-label="应用层"><!--[--><!--]--> 应用层 <!--[--><!--]--></a></span></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.0ffc9b8d.js" defer></script>
+    <script type="module" src="/assets/app.28a1ca3c.js" defer></script>
   </body>
 </html>
