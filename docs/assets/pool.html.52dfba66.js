@@ -1,1 +1,0 @@
-const e={key:"v-3dd6c0ca",path:"/front/promise/pool.html",title:"Promise \u5E76\u53D1",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u6ED1\u52A8\u7A97\u53E3",slug:"\u6ED1\u52A8\u7A97\u53E3",children:[]}],filePathRelative:"front/promise/pool.md"};export{e as data};

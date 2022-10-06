@@ -1,1 +1,0 @@
-const e={key:"v-3ce30bc0",path:"/front/network/2-link-layer.html",title:"\u6570\u636E\u94FE\u8DEF\u5C42",lang:"zh-CN",frontmatter:{editLink:!1},excerpt:"",headers:[],filePathRelative:"front/network/2-link-layer.md"};export{e as data};
