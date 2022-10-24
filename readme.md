@@ -1,5 +1,3 @@
-# 外部链接
+# 个人卡片
 
-[CSDN](https://blog.csdn.net/swl979623074)
-
-[掘金](https://juejin.cn/user/2700056290660494/posts)
+链接到个人的其他社交网站。
