@@ -23,14 +23,22 @@ export default withMermaid({
 
   title: "swlws",
   description: "安安静静的小世界",
-  head: [["link", { rel: "icon", href: "/static/logo.png" }]],
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "https://f004.backblazeb2.com/file/swlws-b2/logo.png",
+      },
+    ],
+  ],
   lastUpdated: true,
   lang: "en-US",
   ignoreDeadLinks: true,
   outDir: "../docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/static/logo.png",
+    logo: "https://f004.backblazeb2.com/file/swlws-b2/logo.png",
 
     nav: [
       { text: "主页", link: "/" },

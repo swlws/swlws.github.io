@@ -16,11 +16,11 @@ hero:
   tagline: 输出、分享、推广
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 双周回顾#006 这三个月
+      link: /week/006/readme
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 一次特殊的项目开发过程
+      link: /date/202312/一次特殊的项目开发过程
 
 features:
   - title: 每日
