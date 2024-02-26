@@ -28,7 +28,7 @@ export default withMermaid({
       "link",
       {
         rel: "icon",
-        href: "https://f004.backblazeb2.com/file/swlws-b2/logo.png",
+        href: "https://www.github.com/swlws.png",
       },
     ],
   ],
@@ -38,12 +38,13 @@ export default withMermaid({
   outDir: "../docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "https://f004.backblazeb2.com/file/swlws-b2/logo.png",
+    logo: "https://www.github.com/swlws.png",
 
     nav: [
       { text: "主页", link: "/" },
       { text: "每日", link: dateJson[0].items[0].link },
       { text: "双周", link: weekJson[0].link },
+      { text: "WeLink", link: 'https://swlws.github.io/WeLink/' },
       // { text: "工具", link: "/tool" },
     ],
 
