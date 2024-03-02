@@ -16,8 +16,8 @@ hero:
   tagline: 输出、分享、推广
   actions:
     - theme: brand
-      text: 双周回顾#006 这三个月
-      link: /week/006/readme
+      text: 双周回顾#007 前端与后端
+      link: /week/007/readme
     - theme: alt
       text: Web Component 转图片
       link: /date/202403/clone-node-deep
