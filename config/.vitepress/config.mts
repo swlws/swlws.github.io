@@ -32,7 +32,7 @@ export default withMermaid({
       },
     ],
   ],
-  lastUpdated: true,
+  lastUpdated: false,
   lang: "en-US",
   ignoreDeadLinks: true,
   outDir: "../docs",
@@ -44,7 +44,7 @@ export default withMermaid({
       { text: "主页", link: "/" },
       { text: "每日", link: dateJson[0].items[0].link },
       { text: "双周", link: weekJson[0].link },
-      { text: "WeLink", link: 'https://swlws.github.io/WeLink/' },
+      { text: "WeLink", link: "https://swlws.github.io/WeLink/" },
       // { text: "工具", link: "/tool" },
     ],
 
