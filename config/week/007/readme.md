@@ -10,12 +10,14 @@ head:
       content: 双周回顾
   - - meta
     - name: keywords
-      content: swlws 双周回顾 文昌阁
- 
+      content: swlws 双周回顾 文昌阁 前端 后端 xss SonarQube SonarLint wakeLock NoSleep
+
 date: 2024/2/26
 ---
 
 # 双周回顾#007 - 前端与后端
+
+![route](./img/岔路口.jpeg)
 
 前端的问题不是难，而是它面对最终用户。只要用户的喜好和口味发生变化，前端就必须跟上。
 
@@ -33,19 +35,23 @@ date: 2024/2/26
 
 ## 文章
 
-### CPU & GPU
+### [Web Component 转图片](https://swlws.github.io/date/202403/clone-node-deep.html)
+
+当前主流的 `HTML 转图片` 的方式是利用 `svg 的 foreignObject` 特性实现，当 HTML 中遭遇 `Web Component` 时，会导致 `Web Component` 无法正常显示。
+
+[@swl/clone-node-deep](https://www.npmjs.com/package/@swl/clone-node-deep)通过降级方案解决 `Web Component` 的兼容
 
 ## 工具
 
-### XSS 工具的应对方案
+### XSS 问题的解决方案
 
-Web 中XSS攻击是个长谈的话题，基本的原理大家都知晓，那应该如何防御呢？
+Web 中 XSS 攻击是个长谈的话题，基本的原理大家都知晓，那应该如何防御呢？
 
 重复的造轮子吗？不再需要造轮子了，或许你仅需要一个[DOMPurify](https://github.com/cure53/DOMPurify)
 
-### sonarqube - Code Review 神器
+### SonarQube - Code Review 神器
 
-[sonarqube](https://docs.sonarsource.com/sonarqube/9.9/) SonarQube是一个自我管理的自动代码审查工具，支持30+编程语言，可以系统地帮助您提供干净的代码。该工具的能力：
+[sonarqube](https://docs.sonarsource.com/sonarqube/9.9/) 是一个自我管理的自动代码审查工具，支持 30+编程语言，可以系统地帮助您提供干净的代码。该工具的能力：
 
 - 代码重复率检测
 - 代码圈复杂度检测
@@ -58,10 +64,23 @@ Web 中XSS攻击是个长谈的话题，基本的原理大家都知晓，那应�
 
 ### [NoSleep.js](https://github.com/richtr/NoSleep.js/blob/master/src/index.js)
 
-`https://www.keepscreenon.com/`
+防止电脑进入休眠模式，通常你会怎么操作呢？
+
+一个奇思妙想，通过浏览器控制设备的休眠状态，它的原理：
+
+- 方案一：一个隐藏的、不停止的视频播放器
+- 方案二：利用 `navigator` 提供的 `wakeLock`，阻止屏幕熄屏
+
+在线演示：[www.keepscreenon.com](https://www.keepscreenon.com/)
 
 ## 生活
 
 ### 文昌阁
 
-静极思栋，搜索了下周边的景点，看到一个文昌阁，兴之所至，败兴而归。
+静极思动，搜索了下周边的景点，看到一个文昌阁，兴之所至，败兴而归。
+
+<center>
+
+![文昌阁](./img/文昌阁.png)
+
+</center>
