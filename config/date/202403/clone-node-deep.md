@@ -36,7 +36,7 @@ graph LR
 
 ## 三、解决方案设计
 
-`XMLSerializer.serializeToString` 对 Web Component：
+`XMLSerializer.serializeToString` 对 Web Component 的影响：
 
 1. 如果 Web Component 的关键内容位于其 Shadow DOM 中，那么使用 XMLSerializer 序列化后，这些内容将不会包含在生成的 XML 字符串中，导致信息丢失
 2. 如果 Web Component 的样式信息位于 Shadow DOM 中，使用 XMLSerializer 序列化后，样式信息也将丢失，导致外部无法正确地应用样式

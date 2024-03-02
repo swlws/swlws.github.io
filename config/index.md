@@ -20,7 +20,7 @@ hero:
       link: /week/006/readme
     - theme: alt
       text: Web Component 转图片
-      link: /date/202404/clone-node-deep
+      link: /date/202403/clone-node-deep
 
 features:
   - title: 每日
