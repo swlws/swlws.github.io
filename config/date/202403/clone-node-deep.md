@@ -15,6 +15,8 @@ head:
 
 # Web Component 转图片
 
+![pico](./img/pico.png)
+
 ## 一、HTML 转图片
 
 目前，常见的开源的能够将 HTML 转换为图片有`html2canvas`、`dom-to-image`，大部分场景下，这些开源库都能很友好的处理。
