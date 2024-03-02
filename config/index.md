@@ -19,8 +19,8 @@ hero:
       text: 双周回顾#006 这三个月
       link: /week/006/readme
     - theme: alt
-      text: 一次特殊的项目开发过程
-      link: /date/202312/一次特殊的项目开发过程
+      text: Web Component 转图片
+      link: /date/202404/clone-node-deep
 
 features:
   - title: 每日
