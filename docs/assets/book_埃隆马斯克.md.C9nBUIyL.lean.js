@@ -1,0 +1,1 @@
+import{_ as o,c as e,o as t,a2 as a}from"./chunks/framework.aTtkxbT6.js";const q=JSON.parse('{"title":"埃隆·马斯克","description":"","frontmatter":{},"headers":[],"relativePath":"book/埃隆马斯克.md","filePath":"book/埃隆马斯克.md"}'),p={name:"book/埃隆马斯克.md"},c=a("",27),l=[c];function r(n,u,s,b,_,k){return t(),e("div",null,l)}const i=o(p,[["render",r]]);export{q as __pageData,i as default};
