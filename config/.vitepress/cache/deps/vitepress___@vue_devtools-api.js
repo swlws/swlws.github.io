@@ -2,10 +2,10 @@ import {
   isReactive,
   isRef,
   toRaw
-} from "./chunk-3DXR62HT.js";
+} from "./chunk-UTGH4N2I.js";
 import "./chunk-Y2F7D3TJ.js";
 
-// node_modules/.pnpm/@vue+devtools-shared@7.0.16/node_modules/@vue/devtools-shared/dist/index.js
+// node_modules/.pnpm/@vue+devtools-shared@7.0.15/node_modules/@vue/devtools-shared/dist/index.js
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -520,7 +520,7 @@ async function _applyPromised(fn, _this, args) {
   return await fn.apply(_this, args);
 }
 
-// node_modules/.pnpm/@vue+devtools-kit@7.0.16_vue@3.4.21/node_modules/@vue/devtools-kit/dist/index.js
+// node_modules/.pnpm/@vue+devtools-kit@7.0.15_vue@3.4.19/node_modules/@vue/devtools-kit/dist/index.js
 var __create2 = Object.create;
 var __defProp2 = Object.defineProperty;
 var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -2291,22 +2291,8 @@ var RefStateEditor = class {
     if (isRef(ref)) {
       ref.value = value;
     } else {
-      if (ref instanceof Set && Array.isArray(value)) {
-        ref.clear();
-        value.forEach((v) => ref.add(v));
-        return;
-      }
-      const currentKeys = Object.keys(value);
-      if (ref instanceof Map) {
-        const previousKeysSet2 = new Set(ref.keys());
-        currentKeys.forEach((key) => {
-          ref.set(key, Reflect.get(value, key));
-          previousKeysSet2.delete(key);
-        });
-        previousKeysSet2.forEach((key) => ref.delete(key));
-        return;
-      }
       const previousKeysSet = new Set(Object.keys(ref));
+      const currentKeys = Object.keys(value);
       currentKeys.forEach((key) => {
         Reflect.set(ref, key, Reflect.get(value, key));
         previousKeysSet.delete(key);
@@ -2569,7 +2555,6 @@ export {
   onDevToolsClientConnected,
   onDevToolsConnected,
   removeCustomCommand,
-  setupDevToolsPlugin,
-  setupDevToolsPlugin as setupDevtoolsPlugin
+  setupDevToolsPlugin
 };
 //# sourceMappingURL=vitepress___@vue_devtools-api.js.map

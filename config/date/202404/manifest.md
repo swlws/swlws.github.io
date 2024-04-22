@@ -1,4 +1,19 @@
-# 如何动态生成一个 manifest.json
+---
+outline: deep
+
+head:
+  - - meta
+    - name: author
+      content: swlws
+  - - meta
+    - name: description
+      content: 为 Web 站点优雅的生成 Manifest 文件
+  - - meta
+    - name: keywords
+      content: swlws Manifest
+---
+
+# 为 Web 站点优雅的生成 Manifest 文件
 
 ## mainfest.json
 
