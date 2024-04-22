@@ -16,11 +16,11 @@ hero:
   tagline: 输出、分享、推广
   actions:
     - theme: brand
-      text: 双周回顾#007 前端与后端
-      link: /week/007/readme
+      text: 双周回顾#009 大黄与我
+      link: /week/009/readme
     - theme: alt
-      text: Web Component 转图片
-      link: /date/202403/clone-node-deep
+      text: CSS 命名规范 -BEM
+      link: /date/202404/bem
 
 features:
   - title: 每日
@@ -78,5 +78,5 @@ const members = [
 
 <footer style="text-align: center">
   <img style="display: inline-block" src="/static/wechat_article.jpg" alt="" />
-  <p>微信公众号</p>
+  <p>关注微信公众号，及时获取最新更新</p>
 </footer>

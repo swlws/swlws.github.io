@@ -3,6 +3,10 @@
     "text": "202404",
     "items": [
       {
+        "text": "CSS 命名规范",
+        "link": "/date/202404/bem"
+      },
+      {
         "text": "为 Web 站点优雅的生成 Manifest 文件",
         "link": "/date/202404/manifest"
       }
