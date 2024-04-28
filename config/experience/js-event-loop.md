@@ -3,29 +3,29 @@
 ## 如何消除异步代码的传染性
 
 ```js
-function timeOut(res, time = 1000) {
+function timeOut(rt, time = 1000) {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(res)
+      resolve(rt)
     }, time)
   })
 }
 async function m1() {
-  let res = await timeOut(1)
-  return ++res
+  let rt = await timeOut(1)
+  return ++rt
 }
 
 async function m2() {
-  let res = await m1()
-  return ++res
+  let rt = await m1()
+  return ++rt
 }
 async function m3() {
-  let res = await m2()
-  return ++res
+  let rt = await m2()
+  return ++rt
 }
 async function main() {
-  let res = await m3()
-  console.log(res)
+  let rt = await m3()
+  console.log(rt)
 }
 main() // 4
 ```
@@ -37,6 +37,31 @@ main() // 4
 实现如下：
 
 ```js
+function timeOut(rt, time = 1000) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(rt)
+    }, time)
+  })
+}
+function m1() {
+  let rt = timeOut(1)
+  return ++rt
+}
+
+function m2() {
+  let rt = m1()
+  return ++rt
+}
+function m3() {
+  let rt = m2()
+  return ++rt
+}
+function main() {
+  let rt = m3()
+  console.log(rt)
+}
+
 function run(func) {
   const oldFetch = window.timeOut
 
