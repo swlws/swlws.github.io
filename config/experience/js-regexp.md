@@ -36,3 +36,13 @@ export const ipv4Regex = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-
 export const ipv6Regex = /^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$/;
 
 ```
+
+## 动态生成正则
+
+```ts
+function createRegExp(pattern: string, flags: string) {
+  const str = pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
+  return new RegExp(str, flags)
+}
+```
