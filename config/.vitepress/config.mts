@@ -5,6 +5,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 
 import dateJson from "./json/date.json";
 import weekJson from "./json/week.json";
+import expJson from "./json/exp.json";
 
 withMermaid({});
 
@@ -44,6 +45,7 @@ export default withMermaid({
       { text: "主页", link: "/" },
       { text: "每日", link: dateJson[0].items[0].link },
       { text: "双周", link: weekJson[0].link },
+      { text: "知识库", link: expJson[0].link },
       { text: "WeLink", link: "https://swlws.github.io/WeLink/" },
       // { text: "工具", link: "/tool" },
     ],
@@ -51,6 +53,7 @@ export default withMermaid({
     sidebar: {
       "/date": dateJson,
       "/week": weekJson,
+      "/exp": expJson,
       "/tool": [],
     },
 

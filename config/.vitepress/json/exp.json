@@ -1,0 +1,35 @@
+[
+    {
+        "text": "web",
+        "link": "/experience/web"
+    },
+    {
+        "text": "webpack",
+        "link": "/experience/webpack"
+    },
+    {
+        "text": "JavaScript",
+        "items": [
+            {
+                "text": "设备",
+                "link": "/experience/js-device"
+            },
+            {
+                "text": "事件循环",
+                "link": "/experience/js-event-loop"
+            },
+            {
+                "text": "JS 循环",
+                "link": "/experience/js-for"
+            },
+            {
+                "text": "Promise",
+                "link": "/experience/js-promise"
+            },
+            {
+                "text": "正则",
+                "link": "/experience/js-regexp"
+            }
+        ]
+    }
+]

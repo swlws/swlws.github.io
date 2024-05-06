@@ -25,10 +25,13 @@ hero:
 features:
   - title: 每日
     details: 每日随意记录，开发过程中的踩坑记录、经验总结
+    link: /date/202404/bem
   - title: 周
     details: 固定双周回顾（不出意外的话），回顾经历、总结成长、展望未来
-  - title: 工具
-    details: 小工具
+    link: /week/009/readme
+  - title: Link
+    details: 外站工具
+    link: /link/index
 ---
 
 ---
