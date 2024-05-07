@@ -1,34 +1,34 @@
 [
     {
         "text": "web",
-        "link": "/experience/web"
+        "link": "/experience/web/index"
     },
     {
         "text": "webpack",
-        "link": "/experience/webpack"
+        "link": "/experience/webpack/index"
     },
     {
         "text": "JavaScript",
         "items": [
             {
                 "text": "设备",
-                "link": "/experience/js-device"
+                "link": "/experience/javascript/device"
             },
             {
                 "text": "事件循环",
-                "link": "/experience/js-event-loop"
+                "link": "/experience/javascript/event-loop"
             },
             {
                 "text": "JS 循环",
-                "link": "/experience/js-for"
+                "link": "/experience/javascript/for"
             },
             {
                 "text": "Promise",
-                "link": "/experience/js-promise"
+                "link": "/experience/javascript/promise"
             },
             {
                 "text": "正则",
-                "link": "/experience/js-regexp"
+                "link": "/experience/javascript/regexp"
             }
         ]
     }

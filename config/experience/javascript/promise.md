@@ -1,6 +1,6 @@
 # Promise
 
-## 并发空值
+## 并发控制
 
 ```ts
 interface ITask {
