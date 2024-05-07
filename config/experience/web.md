@@ -1,12 +1,12 @@
 # Web 踩坑经验
 
-1. 文字偶现乱码：
+## 文字偶现乱码
 
 现象：通过 css 属性 content 填充的文字，偶尔会显示成乱码。
 
 解决：是将文字改为 unicode 编码，例如 content: '展开' 应改为 content: ''\5c55\5f00''；
 
-2. 符号”_“偶现不显示：
+## 符号”_“偶现不显示
 
 现象：文字父容器设置了 overflow: hidden，在窗口缩放时，缩放到一定比例（不同显示器不一样）会发现"_"消看不见了。
 
@@ -14,23 +14,39 @@
 
 解决：对文字增加样式 padding-bottom: 1px 即可解决此类问题，修改后怎么缩放都不会再消失。
 
-## 当浏览器输入一个 URL, 会发生什么？
+## JSON 数字精度丢失
 
-为什么会问这个问题？
+除了数值的 JS 代码使用大整形数值时，会发生精度丢失问题外。在 JSON 序列化外也会丢失精度。
 
-当浏览器输入一个URL,会发生什么?
+所以，HTTP 传输时，若有大整形数字，必须要求后端以`字符串`的格式返回。
 
-- URL解析,包括协议(如http)、域名、端口、路径和参数等
-- 处理缓存,包括强缓存,协商缓存命中等
-- dns解析,解析域名,获取ip地址
-- 建立链接,请求服务器资源,Nginx,CLB,CDN等
-- 处理响应,资源的加载顺序,资源阻塞等
-- 构建Dom树,CSS树,渲染页面,js执行等
+```js
+// bad
+{
+    "value": 258431607934229718
+}
 
-上面url的加载过程,其实就是我们可以优化的过程,比如:
+// good
+{
+    "value": "258431607934229718"
+}
+```
 
-1. dns解析慢,我们可以找运维更换dns解析服务商
-2. 缓存不生效,我们可以调整缓存策略
-3. 部分地区网络慢,我们可以上cdn
-4. 资源加载慢,处理响应慢,我们可以拆包,gzip压缩,优化资源加载顺序,上http2
-5. 页面渲染慢,减少dom树层级,减少css选择器复杂度,减少js执行时间
+## display:inline-block
+
+某些浏览器在渲染 display: inline-block; 元素的时候,默认元素的样式不一样，可能会造成该元素的上移或下移，可以尝试：
+
+- 设置line-height:1试试
+- 或者在父级元素上使用display:flex
+
+## 自动播放音频
+
+audio 标签，加个 autoplay 属性，这样写了并没有生效，而是报了个错：
+
+> Auto play failed: DOMException: play() failed because the user didn't interact with the document first. <https://goo.gl/xX8pDD>
+
+解决方案是监听用户进来的第一次点击事件，触发播放按钮。
+
+```js
+document.addEventListener('click', this.playPause, { once: true })
+```
