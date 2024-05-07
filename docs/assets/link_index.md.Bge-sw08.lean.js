@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as a,a2 as t}from"./chunks/framework.aTtkxbT6.js";const p=JSON.parse('{"title":"外站链接","description":"","frontmatter":{},"headers":[],"relativePath":"link/index.md","filePath":"link/index.md"}'),l={name:"link/index.md"},o=t("",15),i=[o];function n(h,s,c,d,f,_){return a(),r("div",null,i)}const b=e(l,[["render",n]]);export{p as __pageData,b as default};
