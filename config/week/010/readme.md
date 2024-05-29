@@ -41,3 +41,9 @@ graph LR
 
 - 智者不立危墙之下，不要做明知道是错的事情
 - 按流程做事，不要犯技术外的错误
+
+# 010
+
+## Tool
+
+- [JSON 可视化](https://jsoncrack.com/editor)
