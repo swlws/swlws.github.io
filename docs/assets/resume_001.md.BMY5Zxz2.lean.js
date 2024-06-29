@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as p,a2 as e}from"./chunks/framework.aTtkxbT6.js";const m=JSON.parse('{"title":"简历","description":"","frontmatter":{},"headers":[],"relativePath":"resume/001.md","filePath":"resume/001.md"}'),a={name:"resume/001.md"},o=e("",65),t=[o];function r(n,u,s,c,h,d){return p(),i("div",null,t)}const b=l(a,[["render",r]]);export{m as __pageData,b as default};

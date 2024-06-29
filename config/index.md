@@ -19,8 +19,8 @@ hero:
       text: 双周回顾#009 大黄与我
       link: /week/009/readme
     - theme: alt
-      text: CSS 命名规范 -BEM
-      link: /date/202404/bem
+      text: 请求拦截
+      link: /date/202406/http-interceptor
 
 features:
   - title: 每日
