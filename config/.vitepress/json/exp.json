@@ -31,5 +31,9 @@
                 "link": "/experience/javascript/regexp"
             }
         ]
+    },
+    {
+        "text": "工具库",
+        "link": "/experience/web/tools"
     }
 ]
