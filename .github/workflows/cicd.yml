@@ -1,37 +1,44 @@
-name: Build and Deploy
+name: CICD
+
 # 监听 master 分支上的 push 事件
 on:
   push:
     branches:
       - master
 jobs:
-  build-and-deploy:
-    # 构建环境使用 ubuntu
+  build:
     runs-on: ubuntu-latest
     steps:
-      # 官方action, 将代码拉取到虚拟机
       - name: Checkout
         uses: actions/checkout@v3
         with:
           persist-credentials: false
-
-      # 安装node.js
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "18.18.2"
-
-      # 下载依赖、打包项目
       - name: Install and Build
         run: |
           npm install
           npm run docs:build
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: build
 
-      # 部署
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
-        with:
-          # 项目配置的打包目录名称
-          folder: dist
-          # 部署后提交到的分支
-          branch: static-pages
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
