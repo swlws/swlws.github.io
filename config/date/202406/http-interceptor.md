@@ -22,7 +22,7 @@ head:
 - window.navigator.sendBeacon
 - new Image
 
-针对这几种不同的场景，分别拦截处理它的URL和请求参数
+针对这几种不同的场景，分别拦截处理它的 URL 和请求参数
 
 ## （一）设计
 
@@ -51,7 +51,7 @@ XHR 的核心思路：
 ```ts
 class CustomXhr extends NativeXhr {
   private _method!: string;
-  private _src = '' as K;
+  private _src = "" as K;
   private _async!: boolean;
   private _username?: string | null;
   private _password?: string | null;
@@ -76,7 +76,7 @@ class CustomXhr extends NativeXhr {
   }
 
   send(body?: T) {
-    let url = '' as K;
+    let url = "" as K;
     let data = body;
 
     if (!_this.useNative) {
@@ -84,13 +84,7 @@ class CustomXhr extends NativeXhr {
     }
 
     // Open
-    super.open(
-      this._method,
-      url,
-      this._async,
-      this._username,
-      this._password
-    );
+    super.open(this._method, url, this._async, this._username, this._password);
 
     // 设置请请求头
     Object.keys(this._headers).forEach((key) => {
@@ -161,7 +155,7 @@ window.navigator.sendBeacon = (url: K, data: T) => {
 核心代码实现：
 
 ```ts
- const NativeImage = window.Image;
+const NativeImage = window.Image;
 
 class CustomImage extends NativeImage {
   private _src!: K;
@@ -173,7 +167,7 @@ class CustomImage extends NativeImage {
     }
 
     this._src = _this.newSetHandler(value);
-    this.setAttribute('src', this._src);
+    this.setAttribute("src", this._src);
   }
 
   get src() {
@@ -186,4 +180,10 @@ window.Image = CustomImage;
 
 ## （三）源码
 
-[源代码:  https://github.com/swlws/http-interceptor](https://github.com/swlws/http-interceptor)
+### install
+
+```bash
+npm i @swl/http-interceptor
+```
+
+[源代码: https://github.com/swlws/http-interceptor](https://github.com/swlws/http-interceptor)
